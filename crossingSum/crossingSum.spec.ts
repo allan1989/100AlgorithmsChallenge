@@ -1,6 +1,6 @@
 import { crossingSum } from './crossingSum';
 
-xdescribe(crossingSum.name, () => {
+describe(crossingSum.name, () => {
     it('Test 1', () => {
         // arrange
         const matrix = [[1, 1, 1, 1],
@@ -13,6 +13,21 @@ xdescribe(crossingSum.name, () => {
         const response = crossingSum(matrix, a, b);
 
         // assert 
-        expect(response).toBe(true);
+        expect(response).toBe(12);
+    });
+
+    it('Test 1', () => {
+        // arrange
+        const matrix = [[1, 1, 1, 1],
+        [2, 2, 2, 2],
+        [3, 3, 3, 3]];
+        const a = 2;
+        const b = 2;
+
+        // act
+        const response = crossingSum(matrix, a, b);
+
+        // assert 
+        expect(response).toBe(15);
     });
 });
