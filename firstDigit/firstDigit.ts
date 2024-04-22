@@ -1,5 +1,5 @@
 export function firstDigit(inputString: string): string {
-
+	return inputString.match(/[0-9]/g)[0];
 }
 
 // console.log(firstDigit('var_1__Int'));
