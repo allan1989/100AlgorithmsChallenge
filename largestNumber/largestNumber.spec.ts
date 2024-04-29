@@ -1,14 +1,24 @@
-import { largestNumber } from './largestNumber';
+import { largestNumber } from "./largestNumber";
 
-xdescribe(largestNumber.name, () => {
-    it('Test 1', () => {
-        // arrange
-        const data = 2;
+describe(largestNumber.name, () => {
+  it("Test 1", () => {
+    // arrange
+    const data = 2;
 
-        // act
-        const response = largestNumber(data);
+    // act
+    const response = largestNumber(data);
 
-        // assert 
-        expect(response).toBe(99);
-    });
+    // assert
+    expect(response).toBe(99);
+  });
+  it("Test 2", () => {
+    // arrange
+    const data = 3;
+
+    // act
+    const response = largestNumber(data);
+
+    // assert
+    expect(response).toBe(999);
+  });
 });

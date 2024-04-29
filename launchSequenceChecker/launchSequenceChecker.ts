@@ -1,5 +1,5 @@
 export function launchSequenceChecker(systemNames: string[], stepNumbers: number[]): boolean {
-
+    // to do...
 }
 
 // console.log(launchSequenceChecker(["stage_1", "stage_2", "dragon", "stage_1", "stage_2", "dragon"], [1, 10, 11, 2, 12, 111]));
