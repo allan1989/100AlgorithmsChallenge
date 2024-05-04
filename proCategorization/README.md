@@ -53,6 +53,6 @@ Array of the same length as pros. For each valid i preferences[i] is a sorted ar
 3 ≤ preferences[i][j].length ≤ 25.
 
 -   **[output] array.array.array.string**
-Array of category descriptions sorted by category names. Each category should be listed in the following format: [[<category>], [<Pro1>, <Pro2>...]] where <category> is a category name, and <Proi> is a Pro that provides services in it.
+Array of category descriptions sorted by category names. Each category should be listed in the following format: [[<category>], [<Pro1>, <Pro2>...]] where <category> is a  category name, and <Proi> is a Pro that provides services in it.
 
 Each category present in preferences should be returned (in the right order), and Pros in each subarray should be sorted.
